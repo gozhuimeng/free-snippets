@@ -18,6 +18,17 @@ return {
 		t({ ":", "    " }),
 		i(0, "pass"),
 	}),
+	-- 定义异步函数
+	s({ trig = "asyncdef" }, {
+		t("async def "),
+		i(1, "func_name"),
+		t("("),
+		i(2, "arg"),
+		t(") -> "),
+		i(3, "None"),
+		t({ ":", "    " }),
+		i(0, "pass"),
+	}),
 	-- if __main__
 	s({ trig = "ifmain" }, {
 		t({ 'if __name__ == "__main__":', "    " }),
