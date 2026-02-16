@@ -6,10 +6,12 @@ local i = ls.insert_node
 local f = ls.function_node
 
 return {
-    -- function
+	-- function
 	s({ trig = "function" }, {
 		t("function("),
 		i(1),
-		t({ ")", "", "end" }),
+		t({ ")", "" }),
+		i(0),
+		t({ "", "end" }),
 	}),
 }
