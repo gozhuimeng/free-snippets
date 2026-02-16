@@ -1,5 +1,5 @@
 local ls = require("luasnip")
-local utils = require("utils.function")
+local utils = require("lua.utils.function")
 
 local s = ls.snippet
 local t = ls.text_node
