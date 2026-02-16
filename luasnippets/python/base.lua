@@ -1,10 +1,13 @@
 local ls = require("luasnip")
-local utils = require("lua.utils.function")
+local utils = require("utils.function")
 
 local s = ls.snippet
 local t = ls.text_node
 local i = ls.insert_node
 local f = ls.function_node
+
+print(vim.inspect(utils))
+print(vim.inspect(func))
 
 return {
 	-- 定义函数
